@@ -1,17 +1,17 @@
-# Landing de cumpleanos para Liliana
+# Landing de cumpleaños para Liliana
 
-Sitio estatico listo para GitHub Pages.
+Sitio estático listo para GitHub Pages.
 
 ## Editar fotos
 
 1. Crea o usa la carpeta `assets/photos`.
 2. Agrega tus fotos con estos nombres:
    `foto-01.jpg`, `foto-02.jpg`, `foto-03.jpg` ... `foto-12.jpg`.
-3. Si quieres mas fotos, agrega mas objetos al arreglo `photos` en `script.js`.
+3. Si quieres más fotos, agrega más objetos al arreglo `photos` en `script.js`.
 
 ## Editar texto
 
-El poema y los textos principales estan en `index.html`.
+El poema y los textos principales están en `index.html`.
 
 ## Publicar en GitHub Pages
 
@@ -23,4 +23,4 @@ El poema y los textos principales estan en `index.html`.
 6. Guarda los cambios y espera a que GitHub te muestre la URL.
 
 Si prefieres poner esta carpeta dentro de otro repo, sube el contenido de
-`liliana-27` a la raiz del repositorio para que `index.html` quede en la raiz.
+`liliana-27` a la raíz del repositorio para que `index.html` quede en la raíz.
