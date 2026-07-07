@@ -11,8 +11,8 @@ const photos = [
   },
   {
     src: "assets/photos/foto-03.jpg",
-    alt: "Un dia especial de nuestra relacion",
-    fallback: "Un dia inolvidable",
+    alt: "Un día especial de nuestra relación",
+    fallback: "Un día inolvidable",
   },
   {
     src: "assets/photos/foto-04.jpg",
@@ -46,7 +46,7 @@ const photos = [
   },
   {
     src: "assets/photos/foto-10.jpg",
-    alt: "Un recuerdo mas de nuestra relacion",
+    alt: "Un recuerdo más de nuestra relación",
     fallback: "Mi lugar feliz",
   },
   {
