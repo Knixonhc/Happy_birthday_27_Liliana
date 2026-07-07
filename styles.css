@@ -167,6 +167,54 @@ h2 {
   color: var(--ink);
 }
 
+.hero-memory {
+  min-height: 620px;
+  position: relative;
+}
+
+.memory-frame {
+  background: var(--white);
+  border: 8px solid var(--white);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  position: absolute;
+}
+
+.memory-frame img,
+.poem-photo img,
+.memory-strip img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.main-photo {
+  aspect-ratio: 4 / 5;
+  left: 7%;
+  top: 4%;
+  transform: rotate(-3deg);
+  width: min(68%, 360px);
+}
+
+.small-photo {
+  aspect-ratio: 1;
+  width: min(42%, 210px);
+}
+
+.small-photo.first {
+  right: 0;
+  top: 0;
+  transform: rotate(5deg);
+}
+
+.small-photo.second {
+  bottom: 14%;
+  right: 4%;
+  transform: rotate(3deg);
+}
+
 .birthday-card {
   background: rgba(255, 255, 255, 0.78);
   border: 1px solid rgba(255, 255, 255, 0.9);
@@ -192,6 +240,14 @@ h2 {
   font-size: clamp(4.8rem, 11vw, 8.5rem);
   font-weight: 900;
   line-height: 0.88;
+}
+
+.hero-memory .birthday-card {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: min(58%, 280px);
+  z-index: 3;
 }
 
 .cake {
@@ -267,6 +323,40 @@ h2 {
   margin: 0 auto;
   max-width: 920px;
   padding: clamp(26px, 5vw, 56px);
+}
+
+.poem-layout {
+  align-items: stretch;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.42fr);
+  margin: 0 auto;
+  max-width: 1160px;
+}
+
+.poem-layout .poem {
+  margin: 0;
+}
+
+.poem-photo {
+  background: var(--white);
+  border: 8px solid var(--white);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-template-rows: minmax(340px, 1fr) auto;
+  margin: 0;
+  overflow: hidden;
+  transform: rotate(2deg);
+}
+
+.poem-photo p {
+  color: var(--muted);
+  font-weight: 900;
+  line-height: 1.45;
+  margin: 0;
+  padding: 16px;
+  text-align: center;
 }
 
 .poem p {
@@ -569,6 +659,31 @@ h2 {
   padding-top: clamp(42px, 7vw, 82px);
 }
 
+.memory-strip {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: clamp(20px, 5vw, 54px) auto 0;
+  max-width: 1160px;
+  padding: 0 clamp(18px, 4vw, 64px);
+}
+
+.memory-strip img {
+  aspect-ratio: 4 / 5;
+  background: var(--white);
+  border: 7px solid var(--white);
+  border-radius: 8px;
+  box-shadow: 0 16px 34px rgba(92, 51, 76, 0.16);
+}
+
+.memory-strip img:nth-child(even) {
+  transform: translateY(28px) rotate(2deg);
+}
+
+.memory-strip img:nth-child(odd) {
+  transform: rotate(-2deg);
+}
+
 .promise {
   background: var(--ink);
   border-radius: 8px;
@@ -603,6 +718,20 @@ footer {
 
   .birthday-card {
     max-width: 520px;
+  }
+
+  .hero-memory {
+    min-height: 580px;
+    max-width: 620px;
+  }
+
+  .poem-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .poem-photo {
+    grid-template-rows: minmax(320px, 55vw) auto;
+    transform: none;
   }
 
   .photo-card,
@@ -645,6 +774,34 @@ footer {
 
   .character {
     min-height: auto;
+  }
+
+  .hero-memory {
+    min-height: 540px;
+  }
+
+  .main-photo {
+    left: 0;
+    width: 72%;
+  }
+
+  .small-photo {
+    width: 44%;
+  }
+
+  .hero-memory .birthday-card {
+    left: 8%;
+    right: 8%;
+    width: auto;
+  }
+
+  .memory-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .memory-strip img:nth-child(even),
+  .memory-strip img:nth-child(odd) {
+    transform: none;
   }
 }
 

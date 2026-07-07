@@ -1,63 +1,78 @@
 const photos = [
   {
-    src: "assets/photos/foto-01.jpg",
+    src: "assets/photos/web/photo-01.jpg",
     alt: "Liliana y yo en uno de nuestros recuerdos favoritos",
     fallback: "Tu foto favorita",
   },
   {
-    src: "assets/photos/foto-02.jpg",
+    src: "assets/photos/web/photo-02.jpg",
     alt: "Un momento bonito juntos",
     fallback: "Una risa de los dos",
   },
   {
-    src: "assets/photos/foto-03.jpg",
+    src: "assets/photos/web/photo-03.jpg",
     alt: "Un día especial de nuestra relación",
     fallback: "Un día inolvidable",
   },
   {
-    src: "assets/photos/foto-04.jpg",
+    src: "assets/photos/web/photo-04.jpg",
     alt: "Nosotros compartiendo un recuerdo feliz",
     fallback: "Nosotros",
   },
   {
-    src: "assets/photos/foto-05.jpg",
+    src: "assets/photos/web/photo-05.jpg",
     alt: "Liliana sonriendo",
     fallback: "Tu sonrisa",
   },
   {
-    src: "assets/photos/foto-06.jpg",
+    src: "assets/photos/web/photo-06.jpg",
     alt: "Otra foto de nuestra historia",
     fallback: "Otro capitulo",
   },
   {
-    src: "assets/photos/foto-07.jpg",
+    src: "assets/photos/web/photo-07.jpg",
     alt: "Un recuerdo tierno de pareja",
     fallback: "Un abrazo",
   },
   {
-    src: "assets/photos/foto-08.jpg",
+    src: "assets/photos/web/photo-08.jpg",
     alt: "Una aventura juntos",
     fallback: "Una aventura",
   },
   {
-    src: "assets/photos/foto-09.jpg",
+    src: "assets/photos/web/photo-09.jpg",
     alt: "Liliana y yo celebrando la vida",
     fallback: "La vida contigo",
   },
   {
-    src: "assets/photos/foto-10.jpg",
+    src: "assets/photos/web/photo-10.jpg",
     alt: "Un recuerdo más de nuestra relación",
     fallback: "Mi lugar feliz",
   },
   {
-    src: "assets/photos/foto-11.jpg",
+    src: "assets/photos/web/photo-11.jpg",
     alt: "Nosotros en un momento especial",
     fallback: "Momento especial",
   },
   {
-    src: "assets/photos/foto-12.jpg",
+    src: "assets/photos/web/photo-12.jpg",
     alt: "Una foto para guardar siempre",
     fallback: "Para siempre",
+  },
+  {
+    src: "assets/photos/web/photo-13.jpg",
+    alt: "Otra etapa bonita juntos",
+    fallback: "Nuestra historia",
+  },
+  {
+    src: "assets/photos/web/photo-14.jpg",
+    alt: "Un recuerdo de amor y alegría",
+    fallback: "Amor y alegría",
+  },
+  {
+    src: "assets/photos/web/photo-15.jpg",
+    alt: "Kenji y Liliana compartiendo un momento especial",
+    fallback: "Siempre nosotros",
   },
 ];
 
